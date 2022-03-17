@@ -17,6 +17,7 @@ dbConnecction();
 app.get('/', (req, res) => {
 
     res.json({
+        
         ok: 201,
         msg: 'ok'
     })
